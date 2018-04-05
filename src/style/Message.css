@@ -1,0 +1,25 @@
+.Message {
+  line-height: 1.5em;
+  margin: 5px;
+  padding: 5px 15px;
+  -webkit-border-radius: 10px 10px 10px 0;
+  -moz-border-radius: 10px 10px 10px 0;
+  border-radius: 10px 10px 10px 0;
+  background-color: #E5EBEF;
+  align-self: flex-start;
+  display: flex;
+}
+
+.chatA .me, .chatB .other{
+  background-color: #1BC74E;
+  -webkit-border-radius: 10px 10px 0 10px;
+  -moz-border-radius: 10px 10px 0 10px;
+  border-radius: 10px 10px 0 10px;
+  align-self: flex-end;
+}
+
+.time{
+  color: #3F4142;
+  font-size: 0.7em;
+  margin-left: 30px;
+}
